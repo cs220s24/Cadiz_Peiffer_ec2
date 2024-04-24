@@ -22,7 +22,7 @@ jobs:
           mkdir -p ~/.ssh/
           echo "$AWS_SSH" > ~/.ssh/CI-CD-Key
           chmod 600 ~/.ssh/CI-CD-Key
-          ssh -i ~/.ssh/CI-CD-Key -o StrictHostKeyChecking=no $SSH_USER@SSH_HOST Cadiz_Peiffer_ec2/redeploy
+          ssh -i ~/.ssh/CI-CD-Key -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST Cadiz_Peiffer_ec2/redeploy
         env:
           SSH_HOST: ${{ env.REMOTE_HOST }}
           SSH_USER: ${{ env.REMOTE_USER }}
