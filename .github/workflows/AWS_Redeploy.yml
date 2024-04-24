@@ -26,4 +26,4 @@ jobs:
         env:
           SSH_HOST: ${{ env.REMOTE_HOST }}
           SSH_USER: ${{ env.REMOTE_USER }}
-          SSH_KEY: ${{ secrets.labsuser.pem }} 
+          SSH_KEY: ${{ secrets.labsuserpem }} 
