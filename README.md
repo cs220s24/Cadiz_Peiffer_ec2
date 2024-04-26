@@ -4,12 +4,14 @@
 ## Get Redeploy Functional
 1. Update the AWS IP address in the redeploy.yml
     - Change the remote host to your AWS instance public IP address
+  
+      `REMOTE HOST: "<AWS IP address>"`
       
 2. Update SSH_KEY in the redeploy.yml
    - Create a GitHub secret that has the contents of your private ssh key
    - Update SSH_KEY under "env:" to be your GitHub secret name that includes your ssh key
   
-  `SSH_KEY: ${{ secrets.< Your secret name> }}`
+      `SSH_KEY: ${{ secrets.< Your secret name> }}`
 
 ## Launch on AWS Instance
 1. Create an AWS instance
