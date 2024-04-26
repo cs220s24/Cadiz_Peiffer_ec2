@@ -20,7 +20,9 @@
    - Builds and runs docker container for web_counter on port 80
      
    `ssh -i ~/.ssh/<ssh key> ec2-user@<public IP address of instance> ./Cadiz_Peiffer_ec2/build.sh`
-*Note*
+   
+## NOTE
+
 - To take down the web_counter:
   
 -  `ssh -i ~/.ssh/<ssh key> ec2-user@<public IP address of instance> ./Cadiz_Peiffer_ec2/down`
