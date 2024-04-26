@@ -1,5 +1,5 @@
 # Cadiz_Peiffer_ec2
-# Contributers: Samuel Cadiz and Jaden Peiffer
+- Contributers: Samuel Cadiz and Jaden Peiffer
 
 ## Get Redeploy Functional
 1. Update the AWS IP address in the redeploy.yml
